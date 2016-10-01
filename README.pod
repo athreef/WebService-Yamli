@@ -1,0 +1,52 @@
+=pod
+
+=encoding utf8
+
+=head1 NAME
+
+WebService::Yamli - Perl wrapper for Yamli's Arabic transliteration service
+
+
+=head1 SYNOPSIS
+
+    use WebService::Yamli;
+
+    # non-OO:
+    my $tr = WebService::Yamli::tr('perl di 7aga la6eefa aslan');
+    say @tr;
+
+
+=head1 DESCRIPTION
+
+=head1 IMPLEMENTATION
+
+=head1 METHODS AND ARGUMENTS
+
+=over 4
+
+=item tr($arg)
+
+Transliterates argument. Returns transliterated string, except if input is a single word and subroutine is in list context, in that case it returns a candidate list
+
+=back
+
+=head1 GIT REPOSITORY
+
+L<http://github.com/athreef/WebService-Yamli>
+
+=head1 SEE ALSO
+
+L<Encode::Arabic::Franco|Encode::Arabic::Franco>
+
+=head1 AUTHOR
+
+Ahmad Fatoum C<< <athreef@cpan.org> >>, L<http://a3f.at>
+
+=head1 COPYRIGHT AND LICENSE
+
+Copyright (C) 2016 Ahmad Fatoum
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.
+
+=cut

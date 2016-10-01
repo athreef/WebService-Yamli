@@ -1,0 +1,6 @@
+.build/
+*.sw*
+.DS_Store
+WebService-Yamli-*/
+WebService-Yamli-*.tar.gz
+
