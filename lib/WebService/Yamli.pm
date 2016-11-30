@@ -5,6 +5,8 @@ package WebService::Yamli;
 # ABSTRACT: Perl wrapper for Yamli's Arabic translation service
 # VERSION
 
+use v5.14;
+
 use Carp;
 use LWP::UserAgent;
 use URI;
