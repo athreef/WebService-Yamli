@@ -26,7 +26,7 @@ This Module is an interface to L<Yamli.com>'s API.
 
 =head1 IMPLEMENTATION
 
-It seems there's no way to feed the Yamli API more than one word, so currently each word results in a HTTP request. 
+It seems there's no way to feed the Yamli API more than one word, so currently each word results in a HTTP request. Define $WebService::Yamli::HTTPS if HTTPS should be used instead.
 
 =head1 METHODS AND ARGUMENTS
 
